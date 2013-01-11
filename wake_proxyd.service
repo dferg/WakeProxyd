@@ -1,0 +1,9 @@
+[Unit]
+Description=Wake-on-LAN Proxy
+
+[Service]
+ExecStart=/usr/local/bin/wake_proxyd
+
+[Install]
+WantedBy=multi-user.target
+
